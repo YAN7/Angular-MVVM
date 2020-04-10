@@ -16,6 +16,7 @@ import {
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { NoteComponent } from './note/note.component';
 
 const CommonModules = [
   FormsModule,
@@ -35,7 +36,8 @@ const CommonModules = [
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    NoteComponent
   ],
   imports: [
     BrowserModule,
